@@ -6,6 +6,7 @@ project:
   picture: docs/block_diagram.jpg
   author: "Matt Venn"
   license: LICENSE
+  waive_ports_test: 'standard cell issue'
 
 # optional interfaces you want to use: gpio, la1, la2, la3, irq, clk2, wishbone & openram
 interfaces: ['la1']
@@ -13,7 +14,7 @@ interfaces: ['la1']
 # test within caravel
 caravel_test:
   recipe: "coco_test"
-  directory: "caravel_test"
+  directory: "scan_caravel_test"
   id: 13
   module_name: "wrapped_scan_test"
 

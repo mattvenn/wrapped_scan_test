@@ -176,7 +176,7 @@ module wrapped_scan_test(
 
     scan_wrapper_lesson_4 #(.NUM_IOS(8))scan_wrapper_lesson4 (
         .clk            (la1_data_in[0]),
-        .data_in        (data[3]),
+        .data_in        (data[2]),
         .scan_select    (la1_data_in[2]),
         .latch_enable   (la1_data_in[3]),
         .data_out       (buf_la1_data_out[0])
