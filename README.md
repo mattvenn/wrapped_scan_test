@@ -1,3 +1,5 @@
+[![multi_tool](https://github.com/mattvenn/wrapped_scan_test/actions/workflows/multi_tool.yaml/badge.svg)](https://github.com/mattvenn/wrapped_scan_test/actions/workflows/multi_tool.yaml)
+
 # Scan Wrapper Test
 
 Proof of concept for a scan chain. 
