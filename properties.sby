@@ -1,0 +1,15 @@
+[options]
+mode prove
+
+[engines]
+smtbmc
+
+[script]
+read -formal wrapper.v scan_wrapper.v mini_design.v
+prep -top wrapped_scan_test
+
+[files]
+wrapper.v
+properties.v
+scan_test/scan_wrapper.v
+scan_test/mini_design.v
