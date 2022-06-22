@@ -20,7 +20,7 @@ caravel_test:
 
 # module test
 module_test:
-  recipe: "all" 
+  recipe: "custom" 
   directory: "scan_test"
   makefile: "Makefile"
 
