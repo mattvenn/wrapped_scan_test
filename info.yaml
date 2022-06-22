@@ -3,7 +3,7 @@
 project: 
   title: "scan chain test"
   description: "testing a simple scan chain for very small designs"
-  picture: docs/block_diagram.jpg
+  picture: docs/blockdiagram.jpg
   author: "Matt Venn"
   license: LICENSE
   waive_ports_test: 'standard cell issue'
