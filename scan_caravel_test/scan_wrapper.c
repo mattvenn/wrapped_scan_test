@@ -90,8 +90,10 @@ void main()
     SET(reg_la1_data, LATCH_EN);
     CLR(reg_la1_data, LATCH_EN);
 
-    // capture the output data into the scan chain
+    // capture the output data into the scan chain, one clock cycle with scan_select low
     CLR(reg_la1_data, SCAN_SELECT);
+    SET(reg_la1_data, CLOCK);
+    CLR(reg_la1_data, CLOCK);
     SET(reg_la1_data, SCAN_SELECT);
 
     // clock it out, need 32 clocks as there are 4 designs

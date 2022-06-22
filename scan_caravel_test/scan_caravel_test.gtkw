@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Jun 22 14:35:28 2022
+[*]
+[dumpfile] "/home/matt/work/asic-workshop/shuttle6/zero_to_asic_mpw6/verilog/dv/scan_caravel_test/scan_wrapper.vcd"
+[dumpfile_mtime] "Wed Jun 22 14:33:14 2022"
+[dumpfile_size] 2771135
+[savefile] "/home/matt/work/asic-workshop/shuttle6/zero_to_asic_mpw6/verilog/dv/scan_caravel_test/scan_caravel_test.gtkw"
+[timestart] 0
+[size] 1936 835
+[pos] -1 -1
+*-30.600000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] scan_wrapper_tb.
+[treeopen] scan_wrapper_tb.uut.
+[treeopen] scan_wrapper_tb.uut.mprj.
+[treeopen] scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.
+[sst_width] 343
+[signals_width] 390
+[sst_expanded] 1
+[sst_vpaned_height] 440
+@28
+scan_wrapper_tb.clk_out
+scan_wrapper_tb.data_out
+@29
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.active
+@28
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.clk
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.data_in
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.data_out
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.latch_enable
+@22
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.module_data_in[7:0]
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.module_data_out[7:0]
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.scan_data_in[7:0]
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.scan_data_out[7:0]
+@28
+scan_wrapper_tb.uut.mprj.wrapped_scan_test_13.scan_wrapper_lesson1.scan_select
+[pattern_trace] 1
+[pattern_trace] 0
